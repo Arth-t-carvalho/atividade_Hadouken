@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>player video</title>
+    <link rel="stylesheet" href="/_css/style.css">
+</head>
+
+<body>
+    <div class="videopl">
+        <h1>Player de video controlado por js</h1>
+        <video id="player" width="450px" height="300px" controls="controls" autoplay="autoplay">
+            <source src="/_media/hadouken.mp4" type="video/mp4">
+        </video>
+        <br>
+        <br>
+   
+
+    <div>
+        <button onclick="playPause()">Play/pause</button>
+        <button onclick="makeBig()">Ampliar</button>
+        <button onclick="makeSmall()">Reduzir</button>
+        <button onclick="makeNormal()">Tamanho normal</button>
+    </div>
+
+    <br>
+
+    <div>
+        <button onclick="telaCheia()">Tela cheia</button>
+        <button onclick="aumentarVolume()">Volume +</button>
+        <button onclick="diminuirVolume()">volume -</button>
+        <button onclick="mutar()">Mutar</button>
+        <button onclick="desmutar()">Desmutar</button>
+    </div>
+
+</div>
+<script src="/_js/javaScript.js"></script>
+</body>
+
+</html>
